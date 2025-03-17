@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+
+/* Define custom CSS variables */
+:root {
+    --brand-color: #4CAF4F; /* Define the brand color */
+    --p-gray-text: #717171;
+    --p-gray-text-2: #C7C7C7;
+    --h-gray-text: #4D4D4D;
+    --icon-bg: #E8F5E9;
+    --bg-gray: #F5F7FA;
+    --new-gray: #263238;
+}
+
+
+
+
+/* Example usage of the brand color */
+.brandcolor {
+    color: var(--brand-color); /* Use the brand color for text */
+}
+
+.brandbgcolor {
+    background-color: var(--brand-color); /* Use the brand color for background */
+}
+
+.htext{
+    color: var(--h-gray-text);
+}
+
+.ptext{
+    color: var(--p-gray-text);
+}
+
+.iconbg{
+    background-color: var(--icon-bg);
+}
+
+.bggray{
+    background-color: var(--bg-gray);
+}
+.myicon{
+    margin-right: 1rem;
+}
+
+.ngray{
+    color: var(--new-gray);
+}
+
+.ngraybg{
+    background-color: var(--new-gray);
+}
+
+.negray{
+    background-color: var(--p-gray-text);
+}

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nextcent</title>
+    <link href="src/output.css" rel="stylesheet">
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/ec052cc158.js" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+   
+</head>
+<body class="brandbgcolor text-white antialiased">
+   <div class="flex flex-col maincontainer w-full bg-white">
+    <header class="bg-white shadow">
+        <nav class="navbar flex flex-col align-middle justify-center bg-gray-50 h-20 w-full pl-[105px] pr-[105px]">
+            <div class="container mx-auto flex flex-row gap-32">
+            <div class="logo w-full h-full flex flex-col justify-evenly text-white text-lg font-bold">
+                <a href="#"><img class="w-32 h-32 object-contain" src="img/logo.png" alt="Nextcent"></a>
+            </div>
+            <div class="hidden md:flex flex-col items-center justify-evenly">
+                <ul class="flex flex-row space-x-12">
+                <li>
+                    <a href="#home" class="text-neutral-800 font-medium text-1xl hover:text-green-500 transition duration-300">Home</a>
+                </li>
+                <li>
+                    <a href="#service" class="text-neutral-800 text-1xl hover:text-green-500 transition duration-300">Service</a>
+                </li>
+                <li>
+                    <a href="#feature" class="text-neutral-800 text-1xl hover:text-green-500 transition duration-300">Feature</a>
+                </li>
+                <li>
+                    <a href="#product" class="text-neutral-800 text-1xl hover:text-green-500 transition duration-300">Product</a>
+                </li>
+                <li>
+                    <a href="#testimonial" class="text-neutral-800  text-1xl hover:text-green-500 transition duration-300">Testimonial</a>
+                </li>
+                <li>
+                    <a href="#faq" class="text-neutral-800 text-1xl hover:text-green-500 transition duration-300">FAQ</a>
+                </li>
+             </ul>
+            </div>
+            <div class="nav_button hidden lg:flex flex-row align-middle  items-center justify-center gap-2">
+                <button class=" nav_b pl-5 pr-5 pt-2.5 pb-2.5 brandcolor rounded-3xl cursor-pointer">Login</button>
+                <button class="brandbgcolor nav_b pl-5 pr-5 pt-2.5 pb-2.5 rounded-lg cursor-pointer">SignUp</button>
+            </div>
+            <div class="md:hidden flex items-center">
+               <a href="#"> 
+                <button id="hamburger" class="flex flex-col items-center justify-center w-10 h-10" onclick="toggleMenu()">
+                    <span class="block w-6 h-1 bg-gray-800 mb-1"></span>
+                    <span class="block w-6 h-1 bg-gray-800 mb-1"></span>
+                    <span class="block w-6 h-1 bg-gray-800"></span>
+                </a>
+                </button>
+            </div>
+        </div>
+        </nav>
+
+        <div id="mobile-menu" class="md:hidden hidden">
+            <ul class="flex flex-col items-center space-y-6 bg-white p-4">
+                <li><a href="#home" class="text-neutral-800 hover:text-green-500 ">Home</a></li>
+                <li><a href="#service" class="text-neutral-800 hover:text-green-500">Service</a></li>
+                <li><a href="#feature" class="text-neutral-800 hover:text-green-500">Feature</a></li>
+                <li><a href="#product" class="text-neutral-800 hover:text-green-500">Product</a></li>
+                <li><a href="#testimonial" class="text-neutral-800 hover:text-green-500">Testimonial</a></li>
+                <li><a href="#faq" class="text-neutral-800 hover:text-green-500">FAQ</a></li>
+            </ul>
+           
+        </div>
+    </header>
+        
+    <div class="flex flex-col lg:flex-row lg:flex align-middle justify-center place-items-center lg:gap-[104px] gap-[30px] bg-gray-50 h-full w-full lg:pt-24 lg:pb-24 lg:pl-16 lg:pr-16 p-14">
+        <div class="flex flex-col gap-7 header_text">
+            <h1 class="font-semibold text-5xl htext font-inter lg:text-7x1 lg:font-semibold">Lessons and insights <span class="brandcolor flex-col"><br class="">from 8 years</span></h1>
+            <p class="ptext text-base font-normal leading-6">Where to grow your business as a photographer: site or social media?</p>
+            <button class="brandbgcolor w-32 h-14 nav_b pt-2.5 pb-2.5 rounded-lg cursor-pointer">Register</button>
+        </div>
+        <div class="illustration flex flex-col w-72 h-72 lg:w-96 lg:h-96">
+            <img src="img/Illustration.png">
+        </div>
+    </div>
+    <main class="bg-white w-full flex flex-col pt-16">
+        <div class="flex comsection flex-col gap-7 lg:gap-7 lg:h-[416px] align-middle place-items-center h-full maincontent">
+            <div class=" flex w-full h-[120px] flex-col items-center align-middle justify-center place-content-center comsechead gap-2">
+                <h1 class="htext text-4xl text-center font-semibold">Manage your entire community<br> in a single system</h1>
+                <p class="ptext">Who is Nextcent suitable for?
+                </p>
+            </div>
+            <div class="comseccont align-middle justify-center place-content-center items-center lg:flex lg:gap-[127px] gap-11 flex flex-col lg:flex-row lg:h-[280px] h-full w-full">
+                <div class="flex flex-col com1 jus shadow-lg pt-6 pb-6 pl-4 pr-4 w-[299px] h-[260px] align-middle items-center justify-between place-items-center gap-2 rounded-b-md bg-white">
+                    <div class="iconsec w-[50px] relative h-[49px] iconbg rounded-tl-[15px] rounded-tr-[5px] rounded-br-[20px] rounded-bl-[5px]">
+                        <img class="absolute flex right-4 -top-1.5" src="img/Icon (1).png">
+                    </div>
+                    <h1 class="text-[28px] leading-9 htext text-center font-bold">Membership Organisations</h1>
+                    <p class="ptext text-center">Our membership management software provides full automation of membership renewals and payments</p>
+                </div>
+                <div class="flex flex-col com1 jus shadow-lg pt-6 pb-6 pl-4 pr-4 w-[299px] h-[260px] align-middle items-center justify-between place-items-center gap-2 rounded-b-md bg-white">
+                    <div class="iconsec w-[50px] relative h-[49px] iconbg rounded-tl-[15px] rounded-tr-[5px] rounded-br-[20px] rounded-bl-[5px]">
+                        <img class="absolute flex right-4 -top-1.5" src="img/Icon (2).png">
+                    </div>
+                    <h1 class="text-[28px] leading-9 htext text-center font-bold">National Associations</h1>
+                    <p class="ptext text-center">Our membership management software provides full automation of membership renewals and payments</p>
+                </div>
+                <div class="flex flex-col com1 jus shadow-lg pt-6 pb-6 pl-4 pr-4 w-[299px] h-[260px] align-middle items-center justify-between place-items-center gap-2 rounded-b-md bg-white">
+                    <div class="iconsec w-[50px] relative h-[49px] iconbg rounded-tl-[15px] rounded-tr-[5px] rounded-br-[20px] rounded-bl-[5px]">
+                        <img class="absolute flex right-4 -top-1.5" src="img/Icon (3).png">
+                    </div>
+                    <h1 class="text-[28px] leading-9 htext text-center font-bold">Clubs And <br>Groups</h1>
+                    <p class="ptext text-center">Our membership management software provides full automation of membership renewals and payments</p>
+                </div>
+            </div>
+            </div>
+        
+             <div class="lg:mt-[220px] mt-[90px] lg:mb-[30px] mb-[60px] flex lg:flex-row flex-col lg:h-[433px] w-full h-full align-middle justify-center lg:gap-12 gap-6">
+            <div class="flex flex-col lg:w-[442px] w-full place-items-center justify-center">
+                <img src="img/Frame 35.png">
+            </div>
+            <div class="flex flex-col lg:w-[661px] lg:items-start w-full gap-8 pl-5 pr-5">
+                <h1 class="text-[36px] lg:text-[36px] items-center lg:items-start leading-11 htext font-semibold">The unseen of spending three <br class="sm:hidden">years at Pixelgrade</h1>
+                <p class="ptext text-justify">The unseen side of spending three years at Pixelgrade goes beyond the daily tasks and projects. 
+                    It’s about growth, resilience, and the deep understanding of design, collaboration, and problem-solving. 
+                    Challenges turn into learning curves, and each milestone becomes a testament to progress. 
+                        The culture fosters creativity, pushing boundaries while nurturing relationships that extend beyond work. With time, the nuances of craftsmanship and the impact of thoughtful design become second nature. It’s not just about building products—it’s about evolving alongside them, 
+                    refining perspectives, and embracing a journey that shapes both professional and personal growth..</p>
+                <button class="pl-5 pr-5 pt-2.5 pb-2.5 w-[151px] h-[52px] justify-center brandbgcolor rounded-sm cursor-pointer">Learn More</button>
+            </div>
+         </div>
+
+         <div class=" flex lg:flex-row flex-col lg:h-[288px] h-full w-full items-center bggray align-middle place-items-center justify-center lg:pt-16 lg:pb-16 pt-16 pb-16 pl-4 pr-4 lg:pl-36 lg:pr-36 lg:gap-[72px] gap-8">
+
+                 <div class="flex flex-col lg:w-[540px] w-full justify-center items-center">
+                <h1 class="text-[36px] leading-11 htext font-semibold">Helping a local <br><span class="brandcolor">business reinvent itself</span></reinvent></h1>
+                <p class="ptext">We reached here with our hard work and dedication</p>  
+                </div>
+
+                <div class="flex flex-col lg:w-[540px] justify-center h-full w-full gap-8 pl-5 pr-5">
+                    <div id="top" class="flex flex-row">
+                        <div id="members" class="flex flex-row lg:w-[255px] w-full align-middle items-center">
+                            <div class="flex flex-col w-12 h-12 lg:mr-4 mr-1">
+                                <img src="img/members.png">
+                            </div>
+                            <div id="Fig" class="flex flex-col">
+                                <h2 class="htext lg:font-bold font-medium text-[20px]">2,245,341</h2>
+                                <p class="ptext text-base font-normal">Members</p>
+                            </div>
+                        </div>
+
+                        <div id="clubs"  class="flex flex-row align-middle items-center">
+                            <div class="flex flex-col justify-center w-20 h-20 lg:mr-4 mr-1">
+                                <img src="img/club.png">
+                            </div>
+                            <div id="Fig" class="flex flex-col">
+                                <h2 class="htext lg:font-bold font-medium text-[20px]">46,328</h2>
+                                <p class="ptext">Clubs</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                     
+                    <div id="bottom" class="flex flex-row">
+                        <div id="events" class="flex flex-row lg:w-[255px] w-full align-middle items-center">
+                            <div class="flex flex-col justify-center w-12 h-12 lg:mr-4 mr-1">
+                                <img src="img/event.png">
+                            </div>
+                            <div id="Fig" class="flex flex-col">
+                                <h2 class="htext lg:font-bold font-medium text-[20px]">828,867</h2>
+                                <p class="ptext ">Event Bookings</p>
+                            </div>
+                        </div>
+                        <div id="payments"  class="flex flex-row align-middle items-center">
+                            <div class="flex flex-col justify-center w-12 h-12 lg:mr-4 mr-1">
+                                <img src="img/wallet.png">
+                            </div>
+                            <div id="Fig" class="flex flex-col">
+                                <h2 class="htext lg:font-bold font-medium text-[20px]">1,926,436</h2>
+                                <p class="ptext">Payments</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                     
+                 </div>
+
+            </div>
+
+            <div class="mt-12 mb-12 flex lg:flex-row flex-col lg:h-[433.4px] h-full items-center align-middle justify-center gap-12">
+                <div class="flex flex-col lg:w-[442px] w-full justify-center">
+                    <img src="img/pana.png">
+                </div>
+                <div class="flex flex-col lg:w-[661px] w-full lg:gap-8 gap-5 pl-5 pr-5 justify-center lg:items-start">
+                    <h1 class="lg:text-[36px] text-3xl leading-9 htext font-semibold lg:text-start">How to design your site footer like<br> we did</h1>
+                    <p class="ptext justify-center text-justify ">Designing your site footer effectively is about balance—functionality meets aesthetics. 
+                        It should be intuitive, providing essential navigation without clutter. At Pixelgrade, we focus on hierarchy, 
+                        ensuring key links like contact, social media, and legal information are easily accessible. 
+                        Visual harmony plays a role, with typography, spacing, and contrast enhancing readability. 
+                        Every detail, from subtle animations to responsive adjustments, contributes to a seamless user experience. 
+                        The goal isn’t just to complete a page—it’s 
+                        to create a cohesive, well-structured conclusion that enhances usability and strengthens brand identity.</p>
+                    <button class="pl-5 pr-5 pt-2.5 pb-2.5 w-[151px] h-[52px] justify-center items-center place-content-center align-middle brandbgcolor rounded-sm cursor-pointer">Learn More</button>
+                </div>
+            </div>
+
+            <div class="flex lg:flex-row flex-col lg:pt-[63px] pt-6 pb-6 mb-12 w-full lg:pb-[63px] lg:pl-16 pl-6 pr-6 lg:pr-36 lg:h-[400px] h-full bggray items-center lg:gap-[78px] gap-12">
+                <div class="flex flex-col lg:w-[626px] w-full h-full lg:h-[326px] p-4 lg:p-9 items-center place-items-center justify-center">
+                    <img class="rounded-lg" src="img/image 9.png">
+                </div>
+                <div class="flex flex-col lg:w-[660px] w-full gap-4">
+                    <p class="ptext font-medium text-base leading-6 text-justify">At Tesla, innovation and user experience are at the core of everything we do. 
+                        Partnering with Pixelgrade has been an incredible journey—one that has elevated our digital presence to new heights. 
+                        Their team brings a rare blend of creativity and technical expertise, crafting seamless, visually striking designs that align perfectly with our brand’s forward-thinking approach. 
+                        From intuitive navigation to a refined aesthetic, every detail is thoughtfully executed. 
+                        Working with Pixelgrade isn’t just about design—it’s about shaping the future of digital experiences.</p>
+                        <div class="desig flex flex-col mb-8">
+                        <h2 class="brandcolor font-semibold text-[20px]">Tim Smith</h2>
+                        <p class="ptext">Tesla Inc</p>
+                        </div>
+                    <div class="clients flex lg:flex-nowrap lg:flex-row flex-col lg:w-[748px] w-full h-full align-middle gap-8">
+                        <div class="icons flex flex-row lg:gap-[41px] gap-1 place-items-center">
+                            <div class="i1 w-12 h-12"><a href="#"><img src="img/Logo (1).png"></a></div>
+                            <div class="i2 w-12 h-12"><a href="#"><img src="img/Logo (2).png"></a></div>
+                            <div class="i3 w-12 h-12"><a href="#"><img src="img/Logo (3).png"></a></div>
+                            <div class="i4 w-12 h-12"><a href="#"><img src="img/Logo (4).png"></a></div>
+                            <div class="i5 w-12 h-12"><a href="#"><img src="img/Logo (5).png"></a></div>
+                            <div class="i6 w-12 h-12"><a href="#"><img src="img/Logo (6).png"></a></div>
+                        </div>
+                        <div class="cta lg:w-[233px] w-full h-11 flex lg:flex-row flex-col items-center">
+                                <h2 class="brandcolor font-semibold text-[20px]">Meet all customers <i class=" flex flex-row ml-3.5 fa-solid fa-arrow-right brandcolor"></i></h2>      
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mketing flex flex-col lg:h-[516px] h-full w-full gap-4 mb-30 lg:mb-0 p-6">
+                <div class="flex flex-col h-full place-content-center justify-center align-middle items-center gap-2">
+                    <h1 class="text-[36px] leading-11 htext text-center font-semibold">Caring is the new marketing</h1>
+                    <p class="ptext text-center lg:w-[628px] w-full font-normal text-base">The Nexcent blog is the best place to read about the latest membership insights, trends and more. 
+                        See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
+                </div>
+                <div class="flex lg:flex-row w-full flex-col h-full align-middle place-items-center justify-center lg:gap-6 gap-60">
+                    <div class="flex flex-col lg:w-[366px] w-full lg:h-[366px] h-full place-items-center items-center">
+                        <img src="img/image 18.png" class="rounded-lg absolute">
+                        <div class="content flex flex-col shadow-lg bggray gap-4 p-4 lg:w-[317px] w-full lg:h-[176px] h-full rounded-lg relative top-48">
+                            <p class="ptext font-semibold text-[20px] text-center">Creating Streamlined Safeguarding Processes with OneRen</p>
+                            <button class=" cursor-pointer w-full brandcolor font-semibold text-[20px]">Read more<i class=" flex flex-row ml-3.5 fa-solid fa-arrow-right brandcolor"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col lg:w-[366px] lg:h-[366px] w-full h-full place-items-center items-center">
+                        <img src="img/image 19.png" class="rounded-lg absolute">
+                        <div class="content flex flex-col shadow-lg bggray gap-4 p-4 lg:w-[317px] w-full h-full lg:h-[176px] rounded-lg relative top-48">
+                            <p class="ptext font-semibold text-[20px] text-center">What are your safeguarding responsibilities and how can you manage them?</p>
+                            <button class=" cursor-pointer w-full brandcolor font-semibold text-[20px]">Read more<i class=" flex flex-row ml-3.5 fa-solid fa-arrow-right brandcolor"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col w-full lg:w-[366px] h-full lg:h-[366px] place-items-center items-center">
+                        <img src="img/image 20.png" class="rounded-lg absolute">
+                        <div class="content flex flex-col shadow-lg bggray gap-4 p-4 lg:w-[317px] w-full h-full lg:h-[176px] rounded-lg relative top-48">
+                            <p class="ptext font-semibold text-[20px] text-center">Revamping the Membership <br>Model with Triathlon <br>Australia</p>
+                            <button class=" cursor-pointer w-full brandcolor font-semibold text-[20px]">Read more<i class=" flex flex-row ml-3.5 fa-solid fa-arrow-right brandcolor"></i></button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="cta lg:mt-[94px] bggray mt-[100px] pt-8 pb-24 lg:pt-8 lg:pb-8 lg:h-[300px] h-full w-full flex flex-col align-middle justify-center place-items-center gap-8">
+                <h1 class=" text-center font-semibold lg:leading-[50px] leading-8 lg:text-[64px] text-3xl ngray">Elevate Your Digital Presence <br>with Pixelgrade </h1>
+                <button class="brandbgcolor w-[178px] h-[52px] rounded-sm pt-3.5 pr-8 pb-3.5 pl-8 cursor-pointer">Get a Demo <i class=" flex flex-row ml-1.5 fa-solid fa-arrow-right text-white"></i></button>
+
+            </div>
+    </main>
+    <footer class="w-full h-full lg:h-[330px] ngraybg flex lg:flex-row flex-col pt-16 pb-16 lg:pl-[165px] lg:pr-[165px] lg:gap-[125px] pl-5 pr-5 gap-14">
+        <div class="flex flex-col gap-10 w-full lg:w-[350px]"   >
+            <img src="img/footlogo.png" class="lg:w-[191px] w-[130px] h-[20px] lg:h-[29.67px]">
+            <div class="flex flex-col gap-2">
+            <p class="text-[14px] font-normal text-white">Copyright © 2020 Nexcent ltd.</p>
+            <p class="text-[14px] font-normal text-white">All rights reserved</p>
+            </div>
+
+            <div class="socials flex flex-row lg:w-[176px] w-full h-8 gap-4">
+                <a href"#"><img class="w-8 h-8 cursor-pointer" src="img/instagram.png" alt=""></a>
+                <a href"#"><img class="w-8 h-8 cursor-pointer" src="img/dribble.png" alt=""></a>
+                <a href"#"><img class="w-8 h-8 cursor-pointer" src="img/x.png" alt=""></a>
+                <a href"#"><img class="w-8 h-8 cursor-pointer" src="img/youtube.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="flex lg:flex-row flex-row gap-[30px] h-full w-full lg:h-[200px] lg:w-[635px]">
+            <div class="flex flex-col lg:w-40 w-1/2 gap-6">
+                <h3 class="font-semibold text-[20px]">Company</h3>
+                <div class="flex flex-col gap-3">
+                    <a href="#" class="text-[14px] font-normal text-white">About</a>
+                    <a href="#" class="text-[14px] font-normal text-white">Blog</a>
+                    <a href="#" class="text-[14px] font-normal text-white">Contact us</a>
+                    <a href="#" class="text-[14px] font-normal text-white">Pricing</a>
+                    <a href="#" class="text-[14px] font-normal text-white">Testimonials</a>
+                </div>
+
+            </div>
+            <div class="flex flex-col lg:w-40 w-1/2 gap-6">
+                <h3 class="font-semibold text-[20px]">Support</h3>
+                <div class="flex flex-col gap-3">
+                    <a href="#" class="text-[14px] font-normal text-white">Help Centre</a>
+                    <a href="#" class="text-[14px] font-normal text-white">Terms Of Service</a>
+                    <a href="#" class="text-[14px] font-normal text-white">Legal</a>
+                    <a href="#" class="text-[14px] font-normal text-white">Privacy Policy</a>
+                    <a href="#" class="text-[14px] font-normal text-white">Status</a>
+                </div>
+
+            </div>
+            
+            <div class="flex flex-col gap-6 lg:w-[255px] w-full">
+                <h3 class="font-semibold text-[20px]">Stay Up to Date</h3>
+                <div class="flex p-3 negray flex-row  h-10 rounded-lg place-items-center align-middle">
+                    <input class="text-[14px] w-full text-white" type="email" placeholder="Your email address">
+                    <img src="img/send.png" class="w-[18px] h-[18px] cursor-pointer">
+                </div>
+    
+            </div>
+        </div>
+    </footer>
+
+</div>
+<h3></h3>
+
+</body>
+</html>
