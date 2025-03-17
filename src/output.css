@@ -2849,6 +2849,18 @@
       line-height: 50px;
     }
   }
+  .lg\:leading-\[60px\] {
+    @media (width >= 64rem) {
+      --tw-leading: 60px;
+      line-height: 60px;
+    }
+  }
+  .lg\:leading-\[65px\] {
+    @media (width >= 64rem) {
+      --tw-leading: 65px;
+      line-height: 65px;
+    }
+  }
   .lg\:leading-\[70px\] {
     @media (width >= 64rem) {
       --tw-leading: 70px;
